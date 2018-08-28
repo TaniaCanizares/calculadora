@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      
+    <h:head>
+        <title>Calculadora</title>
+        <link href="estilo.css" type="text/css" rel="stylesheet"/>
+    </h:head>
+    <h:body>
+        <h:form styleClass="form">
+            <h:outputLabel styleClass="label" value="Número 1"/>
+            <h:inputText styleClass="input" value="#{beanCalculador.a}"/><br/><br/>
+            
+            <h:outputLabel styleClass="label" value="Número 2"/>
+            <h:inputText styleClass="input" value="#{beanCalculador.b}"/><br/><br/>
+            
+            <h:commandButton styleClass="submit" action="#{beanCalculador.calculaSuma()}" value="Suma" />
+            <h:commandButton styleClass="submit" action="#{beanCalculador.calculaResta()}" value="  Resta" />
+            <h:commandButton styleClass="submit" action="#{beanCalculador.calculaMultiplicacion()}" value="  Multiplicacion" />
+            <h:commandButton styleClass="submit" action="#{beanCalculador.calculaDivision()}" value="  División" /><br/>
+            
+            <br/><br/><h:outputLabel value="Resultado "/>
+            <h:inputText styleClass="input"  value="#{beanCalculador.resultado}"/>
+        </h:form>
+    </h:body>
+</html>
+

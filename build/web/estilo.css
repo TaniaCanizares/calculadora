@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/08/2018, 07:00:57 PM
+    Author     : casa
+*/
+
+.form{
+  width: 500px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  cursor:pointer;
+  display:block;
+  margin: auto;
+  text-align:center;
+}
+
+.label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.submit{
+    width: 25%;
+    background-color: #4CAF50;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
