@@ -20,8 +20,9 @@ and open the template in the editor.
 }
 
 .label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+    color: black;
+    padding: 8px;
+    font-family: Georgia;
 }
 
 .input{
@@ -35,11 +36,11 @@ and open the template in the editor.
 
 .submit{
     width: 25%;
-    background-color: #4CAF50;
+    background-color: lightseagreen;
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
-    border: black;
     border-radius: 4px;
     cursor: pointer;
+    border: 2px solid #d0d0d0;
 }
