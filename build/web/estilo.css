@@ -43,4 +43,10 @@ and open the template in the editor.
     border-radius: 4px;
     cursor: pointer;
     border: 2px solid #d0d0d0;
+    display: inline-block;
+    transition: 0.3s
+}
+
+.submit:hover{
+    transform: scale(1.2);
 }
